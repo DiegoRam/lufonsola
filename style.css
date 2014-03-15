@@ -1,0 +1,25 @@
+code {
+	margin: 4px;
+	padding: 3px;
+	padding-left: 5px;
+	font-family: Monospace;
+	display: block;
+}
+
+[js] {
+	border: 1px solid #999;
+	background-color: #eee;
+}
+
+[js]:before {
+	content: 'js >> ';
+}
+
+[ng] {
+	border: 1px solid orange;
+	background-color: #fe9;
+}
+
+[ng]:before {
+	content: 'ng >> ';
+}
